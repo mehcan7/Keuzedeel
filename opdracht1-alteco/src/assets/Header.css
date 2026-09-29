@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .logo {
@@ -29,17 +29,7 @@
 }
 
 .nav a:hover {
-  color: blue;
-}
-
-.quote-button {
-  background-color: blue;
-  color: white;
-  padding: 0.6rem 1.2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 500;
-  white-space: nowrap;
+  color: darkred;
 }
 
 @media (max-width: 768px) {
