@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="top-row">
-        <a href="/" className="logo">Roodwerk</a>
+        <a href="/" className="logo">Alteco</a>
 
         <nav className="nav">
           <a href="#home">Home</a>

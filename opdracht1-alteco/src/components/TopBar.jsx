@@ -5,7 +5,7 @@ function TopBar() {
   return (
     <div className="contact-bar">
       <div className="contact-info">
-        <a href="#">info@roodwerk.nl</a>
+        <a href="#">info@alteco.nl</a>
         <a href="#">+31 6 00 000 000</a>
       </div>
 

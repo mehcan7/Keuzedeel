@@ -1,5 +1,6 @@
 .hero {
-  background-image: linear-gradient(135deg, black, darkred);
+  background-size: cover;
+  background-position: center;
   color: white;
   padding: 6rem 1rem;
 }
@@ -15,8 +16,8 @@
 }
 
 .highlight {
-  background-color: darkred;
-  padding: 0.2rem 0.5rem;
+  background-color: blue;
+  
 }
 
 .hero p {
