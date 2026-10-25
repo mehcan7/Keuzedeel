@@ -1,0 +1,79 @@
+.services {
+  padding: 7rem 1rem;
+  text-align: center;
+}
+
+.services-heading h2 {
+  font-size: 3.25rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.divider span {
+  width: 8px;
+  height: 8px;
+  background-color: lightgray;
+}
+
+.services-intro {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  color: #333333;
+  line-height: 1.6;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1320px;
+  margin: 3rem auto 0;
+}
+
+.service-item {
+  flex: 1 1 200px;
+}
+
+.service-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #0b57e3;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-circle svg {
+  width: 48px;
+  height: 48px;
+  color: white;
+}
+
+.service-label {
+  color: #0b57e3;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.service-item h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.service-item p {
+  font-size: 1.05rem;
+  color: #333333;
+  line-height: 1.6;
+}

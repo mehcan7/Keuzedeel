@@ -1,27 +1,57 @@
 .hero {
+  position: relative;
   background-size: cover;
   background-position: center;
   color: white;
   padding: 6rem 1rem;
 }
 
+.hero-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.hero-arrow-left {
+  left: 0;
+}
+
+.hero-arrow-right {
+  right: 0;
+}
+
 .hero-content {
-  max-width: 600px;
+  max-width: 700px;
+  margin: 0;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  line-height: 1.3;
-  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
 }
 
 .highlight {
-  background-color: blue;
-  
+  background-color: #0b57e3;
+  padding: 0.3rem 0.6rem;
+  /* Blijft op desktop op één regel staan; op mobiel (zie onder) weer losgelaten zodat lange tekst niet van het scherm afloopt */
+  white-space: nowrap;
 }
 
 .hero p {
-  font-size: 1.1rem;
+  display: inline-block;
+  background-color: black;
+  padding: 0.75rem 1.25rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
 
@@ -31,20 +61,26 @@
 }
 
 .btn {
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1rem;
+  font-weight: 600;
   text-decoration: none;
-  font-weight: 500;
-  border-radius: 4px;
-}
-
-.btn-primary {
-  background-color: white;
-  color: black;
 }
 
 .btn-outline {
   border: 2px solid white;
   color: white;
+}
+
+@media (min-width: 769px) {
+  .hero {
+    min-height: 85vh;
+    padding-left: 10rem;
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -64,5 +100,9 @@
 
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .highlight {
+    white-space: normal;
   }
 }

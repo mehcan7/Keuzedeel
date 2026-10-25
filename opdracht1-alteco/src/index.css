@@ -4,8 +4,10 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: black;
+  /* Zonder dit corrigeert de browser de scrollpositie zodra de header van hoogte verandert, wat de header liet trillen */
+  overflow-anchor: none;
 }
 
 .container {
@@ -13,4 +15,17 @@ body {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.eyebrow {
+  color: #0b57e3;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
